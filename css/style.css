@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#111;
+    color:#eee;
+    line-height:1.6;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 10%;
+    background:#1d1d1d;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h2{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+section{
+    width:80%;
+    margin:60px auto;
+}
+
+.card{
+    background:#222;
+    padding:20px;
+    margin-top:20px;
+    border-radius:8px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#1d1d1d;
+}
